@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PickerStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="yE1-x4-luY">
+                                <rect key="frame" x="5" y="20" width="404" height="322.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Укажите героев противника" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lB-L9-cvt">
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="27.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="0" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите героя противника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="POF-Nk-vSK">
+                                        <rect key="frame" x="0.0" y="41.666666666666629" width="404" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="J7M-s7-PQO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите героя противника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XVU-cQ-Bid">
+                                        <rect key="frame" x="0.0" y="100.66666666666663" width="404" height="45.000000000000014"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="khr-30-cRT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="2" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите героя противника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NjL-Tk-PTE">
+                                        <rect key="frame" x="0.0" y="159.66666666666663" width="404" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="E2X-sb-bSS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="3" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите героя противника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mf5-ak-uuK">
+                                        <rect key="frame" x="0.0" y="218.66666666666663" width="404" height="44.999999999999972"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="xMr-Zb-yUh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="4" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите героя противника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YeC-aw-PvN">
+                                        <rect key="frame" x="0.0" y="277.66666666666674" width="404" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="JPp-mG-bxm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgF-hf-Uwe">
+                                <rect key="frame" x="5" y="349.66666666666674" width="404" height="45"/>
+                                <color key="backgroundColor" red="0.098039215686274508" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="LUN-Z1-zVI"/>
+                                </constraints>
+                                <state key="normal" title="Готово">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonShowHeroPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ioR-12-aSF"/>
+                                    <segue destination="h17-vt-grQ" kind="presentation" identifier="hero1name" id="NqY-NP-NNt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30588235294117649" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WgF-hf-Uwe" firstAttribute="leading" secondItem="yE1-x4-luY" secondAttribute="leading" id="JVD-if-sGV"/>
+                            <constraint firstItem="yE1-x4-luY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="UAY-6l-Q2f"/>
+                            <constraint firstItem="yE1-x4-luY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="V7B-5t-Agg"/>
+                            <constraint firstItem="yE1-x4-luY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="boi-HT-79E"/>
+                            <constraint firstItem="WgF-hf-Uwe" firstAttribute="top" secondItem="yE1-x4-luY" secondAttribute="bottom" constant="7" id="eBa-wf-QnM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yE1-x4-luY" secondAttribute="trailing" constant="5" id="eYN-kG-ZbP"/>
+                            <constraint firstItem="WgF-hf-Uwe" firstAttribute="trailing" secondItem="yE1-x4-luY" secondAttribute="trailing" id="hrU-N5-xJ2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonShowHeroView" destination="WgF-hf-Uwe" id="xdA-mg-uan"/>
+                        <outlet property="enemyHero1" destination="POF-Nk-vSK" id="ezb-ur-ccQ"/>
+                        <outlet property="enemyHero2" destination="XVU-cQ-Bid" id="KjZ-nv-0gG"/>
+                        <outlet property="enemyHero3" destination="NjL-Tk-PTE" id="NDE-19-G6J"/>
+                        <outlet property="enemyHero4" destination="Mf5-ak-uuK" id="4Qj-nu-GoD"/>
+                        <outlet property="enemyHero5" destination="YeC-aw-PvN" id="1Us-f2-6DY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452.17391304347831" y="-3.2608695652173916"/>
+        </scene>
+        <!--Pop Up View Controller-->
+        <scene sceneID="R7N-jq-Ed6">
+            <objects>
+                <viewController storyboardIdentifier="popUpVCid" modalPresentationStyle="overCurrentContext" id="h17-vt-grQ" customClass="PopUpViewController" customModule="PickerStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="feU-Mh-2ge" customClass="PopUpViewContoller">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-hz-QBL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ttp-JR-2bE">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dn4-2H-QtA">
+                                            <rect key="frame" x="5" y="19.000000000000007" width="404" height="92.666666666666686"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рекомендуемые герои:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g90-sg-Vi8">
+                                                    <rect key="frame" x="0.0" y="0.0" width="404" height="27.666666666666668"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xo-n8-Xub">
+                                                    <rect key="frame" x="0.0" y="47.666666666666671" width="404" height="45"/>
+                                                    <color key="backgroundColor" red="0.098039215686274508" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44.999999999999993" id="tWJ-zR-lqb"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Back">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="closePopUp:" destination="h17-vt-grQ" eventType="touchUpInside" id="Txi-NI-rPm"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.30588235289999999" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </stackView>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qGI-qZ-gjB">
+                                            <rect key="frame" x="0.0" y="126" width="414" height="610"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.30588235289999999" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="sectionIndexBackgroundColor" red="0.30588235294117649" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <prototypes>
+                                                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowCell" id="XgC-6V-UoB">
+                                                    <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XgC-6V-UoB" id="VY0-al-zzP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <color key="backgroundColor" red="0.30588235289999999" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </tableViewCellContentView>
+                                                    <color key="backgroundColor" red="0.30588235289999999" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </tableViewCell>
+                                            </prototypes>
+                                        </tableView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.30588235294117649" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="dn4-2H-QtA" firstAttribute="leading" secondItem="Ttp-JR-2bE" secondAttribute="leading" constant="5" id="3xI-zy-Q8e"/>
+                                        <constraint firstItem="dn4-2H-QtA" firstAttribute="top" secondItem="Ttp-JR-2bE" secondAttribute="top" constant="19" id="DR9-sd-5rn"/>
+                                        <constraint firstAttribute="trailing" secondItem="dn4-2H-QtA" secondAttribute="trailing" constant="5" id="UYe-k8-dGr"/>
+                                        <constraint firstItem="dn4-2H-QtA" firstAttribute="centerX" secondItem="Ttp-JR-2bE" secondAttribute="centerX" id="vPa-xH-b0v"/>
+                                    </constraints>
+                                </view>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kUL-hz-QBL" firstAttribute="bottom" secondItem="2ku-WB-w9h" secondAttribute="bottom" id="L8I-nV-dqo"/>
+                            <constraint firstItem="kUL-hz-QBL" firstAttribute="top" secondItem="2ku-WB-w9h" secondAttribute="top" id="URR-Pk-ThZ"/>
+                            <constraint firstItem="kUL-hz-QBL" firstAttribute="leading" secondItem="2ku-WB-w9h" secondAttribute="leading" id="e5L-pZ-lIQ"/>
+                            <constraint firstItem="kUL-hz-QBL" firstAttribute="trailing" secondItem="2ku-WB-w9h" secondAttribute="trailing" id="mmd-Qz-thg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2ku-WB-w9h"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonBackView" destination="0Xo-n8-Xub" id="5Ut-na-rDQ"/>
+                        <outlet property="heroesShowTableView" destination="qGI-qZ-gjB" id="gKJ-8h-5aH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fC1-IE-412" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285.50724637681162" y="-3.2608695652173916"/>
+        </scene>
+    </scenes>
+</document>
